@@ -1,0 +1,265 @@
+{
+    "status": "ok",
+    "totalResults": 38,
+    "articles": [{
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Julian Mark",
+            "title": "Rep: Anne Heche suffered anoxic brain injury, unlikely to live - The Washington Post",
+            "description": "Actress Anne Heche, who last week crashed her car into a Los Angeles home, is not expected to survive the injuries she sustained in the collision, a rep said.",
+            "url": "https://www.washingtonpost.com/nation/2022/08/12/anne-heche-anoxic-brain-injury-coma/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IFX3B5QVJEI63BECA3A4QTHI6I.jpg&w=1440",
+            "publishedAt": "2022-08-12T08:37:53Z",
+            "content": "Placeholder while article actions load\r\nActress Anne Heche, who last week crashed her car into a Los Angeles home, is not expected to survive the injuries she sustained in the collision and subsequen… [+2689 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Barron's"
+            },
+            "author": "Al Root",
+            "title": "Rivian Keeps 2022 Production Guidance Intact. The Stock Is Still Falling. - Barron's",
+            "description": "The electric-truck maker maintains its full-year production guidance.",
+            "url": "https://www.barrons.com/articles/rivian-earnings-stock-price-51660205664",
+            "urlToImage": "https://images.barrons.com/im-554314/social",
+            "publishedAt": "2022-08-12T08:09:00Z",
+            "content": "Electric-truck maker \r\nRivian Automotive\r\nreported a wider-than-expected quarterly loss, but more importantly maintained its production estimates for the full year. The stock wobbled as investors dig… [+2491 chars]"
+        },
+        {
+            "source": {
+                "id": "financial-times",
+                "name": "Financial Times"
+            },
+            "author": null,
+            "title": "Live news updates: GSK reassures shareholders over Zantac lawsuits - Financial Times",
+            "description": "",
+            "url": "https://www.ft.com/content/0103d14e-ce6b-4422-8659-77fc5947162e",
+            "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fbfc2d322-8c5c-4231-9808-e1291fc563d2.jpg?source=next-opengraph&fit=scale-down&width=900",
+            "publishedAt": "2022-08-12T07:20:51Z",
+            "content": "Johnson &amp; Johnson stopped selling the talc-based power in the US and Canada in 2020, citing flagging sales © REUTERS\r\nJohnson &amp; Johnson has said it will discontinue production of its talc-bas… [+1849 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Elizabeth Wolfe, Josh Campbell, Brynn Gingras",
+            "title": "An armed man tried to enter the FBI's Cincinnati office and was fatally shot after a chase and standoff with law enforcement. Here's what we know - CNN",
+            "description": "An armed man suspected of trying to breach the FBI's Cincinnati field office on Thursday was killed after an hours-long standoff with law enforcement, authorities say.",
+            "url": "https://www.cnn.com/2022/08/12/us/fbi-cincinnati-office-armed-suspect-what-we-know/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/220811220457-02-cincinnati-fbi-office-armed-subject.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2022-08-12T07:16:00Z",
+            "content": "An armed man suspected of trying to breach the FBIs Cincinnati field office on Thursday was killed after an hours-long standoff with law enforcement, authorities say. \r\nThe suspect has been identifie… [+6459 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Strikes at Ukraine nuclear plant prompt U.N. call for demilitarised zone - Reuters",
+            "description": "Russia and Ukraine accused each other of shelling Europe's biggest nuclear power plant, compounding fears of a disaster as the U.N. chief said it should be made a demilitarised zone and Ukraine demanded that Russian forces withdraw from it.",
+            "url": "https://www.reuters.com/world/satellite-images-show-destruction-russian-air-base-crimea-2022-08-11/",
+            "urlToImage": "https://www.reuters.com/resizer/cgem2hzqIQOALNT6bEmZSDypI8I=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/NSR64RKO5VOELE2ZYXAOCZJKLY.jpg",
+            "publishedAt": "2022-08-12T06:28:00Z",
+            "content": "KYIV/NEW YORK, Aug 12 (Reuters) - Russia and Ukraine accused each other of shelling Europe's biggest nuclear power plant, compounding fears of a disaster as the U.N. chief said it should be made a de… [+6145 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Daily Beast"
+            },
+            "author": "Matt Young",
+            "title": "Child Charged With Murdering New Hampshire Mom and Two Sons - The Daily Beast",
+            "description": "Authorities announced the charges on Thursday, confirming the horrific news that a child was allegedly responsible.",
+            "url": "https://www.thedailybeast.com/child-charged-with-murdering-new-hampshire-mom-kassandra-sweeney-and-two-sons-benjamin-and-mason",
+            "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_812,w_1444,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1660270950/Screen_Shot_2022-08-12_at_12.20.51_PM_cj3cuz",
+            "publishedAt": "2022-08-12T06:10:10Z",
+            "content": "A child has been arrested and charged with murder after a mother and her two sons were found shot to death last week.\r\nAttorney General John M. Formella, state police Col. Nathan Noyes, and Northfiel… [+2482 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "WaPo: FBI searched Mar-a-Lago for classified nuclear documents - CNN",
+            "description": "The FBI sought to locate classified documents related to nuclear weapons, among other items, when agents searched former President Donald Trump's Mar-a-Lago ...",
+            "url": "https://www.youtube.com/watch?v=om_GpRTYkxE",
+            "urlToImage": "https://i.ytimg.com/vi/om_GpRTYkxE/hqdefault.jpg",
+            "publishedAt": "2022-08-12T04:12:50Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "profootballrumors.com"
+            },
+            "author": null,
+            "title": "Browns To Consider Trading For Jimmy Garoppolo Pending Deshaun Watson Appeal - profootballrumors.com",
+            "description": "The sagas surrounding Jimmy Garoppolo and Deshaun Watson have run their courses simultaneously during the 2022 offseason. Events in the near future could cause &hellip;",
+            "url": "https://www.profootballrumors.com/2022/08/browns-to-consider-trading-for-jimmy-garoppolo-pending-watson-appeal",
+            "urlToImage": "https://cdn.profootballrumors.com/files/2017/12/Jimmy-Garoppolo-featured-1024x683.jpg",
+            "publishedAt": "2022-08-12T04:03:00Z",
+            "content": "The sagas surrounding Jimmy Garoppolo and Deshaun Watson have run their courses simultaneously during the 2022 offseason. Events in the near future could cause them to be intertwined to a greater ext… [+2019 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CBS Sports"
+            },
+            "author": "Bryan DeArdo",
+            "title": "Patriots vs. Giants score: New York boots New England in walk-off fashion as dominant running game leads way - CBS Sports",
+            "description": "New York led for most of the way before rallying for a last-second win",
+            "url": "https://www.cbssports.com/nfl/news/patriots-vs-giants-score-new-york-boots-new-england-in-walk-off-fashion-as-dominant-running-game-leads-way/live/",
+            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2022/08/12/b0f0d7cf-3ee0-4261-82ae-294a76d24814/thumbnail/1200x675/5664d2b400bc82cf29dd1f9965b2c35d/usatsi-18856860.jpg",
+            "publishedAt": "2022-08-12T03:35:05Z",
+            "content": "Preseason games are more than just the final score. For most fans and media members, the preseason is a way to gain intel about teams and players before the start of the regular season. Fans of both … [+5103 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "WMUR Manchester"
+            },
+            "author": "Tim Callery",
+            "title": "Harmony Montgomery believed to have been killed, New Hampshire AG says - WMUR Manchester",
+            "description": "The search for missing Manchester girl Harmony Montgomery is now a homicide investigation, law enforcement officials said Thursday.",
+            "url": "https://www.wmur.com/article/harmony-montgomery-homicide-investigation-81122/40871998",
+            "urlToImage": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/harmony-pic-5-breaking-0599-1660243613.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+            "publishedAt": "2022-08-12T02:11:00Z",
+            "content": "The search for missing Manchester girl Harmony Montgomery is now a homicide investigation, law enforcement officials said Thursday.\r\nAttorney General John Formella said investigators now believe that… [+3740 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ESPN"
+            },
+            "author": "Jesse Rogers",
+            "title": "Chicago Cubs and Cincinnati Reds soak in experience at Field of Dreams game in Iowa - ESPN",
+            "description": "The Cubs defeated the Reds 4-2 in the second-ever Field of Dreams MLB game in Iowa, and both teams relished the experience.",
+            "url": "https://www.espn.com/mlb/story/_/id/34386618/chicago-cubs-cincinnati-reds-soak-experience-field-dreams-game-iowa",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F0812%2Fr1047370_1296x729_16%2D9.jpg",
+            "publishedAt": "2022-08-12T02:05:36Z",
+            "content": "DYERSVILLE, Iowa -- The intimate crowd, the movie set, all that corn and simply playing a major league game in Iowa were the highlights for participants of Thursday's second-ever Field of Dreams MLB … [+2414 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Story by Reuters",
+            "title": "North Korea's Kim Jong Un declares victory against Covid - CNN",
+            "description": "North Korean leader Kim Jong Un declared victory in the battle against the novel coronavirus, ordering a lifting of maximum anti-epidemic measures imposed in May, state media said on Thursday.",
+            "url": "https://www.cnn.com/2022/08/10/asia/north-korea-kim-covid-victory-coronavirus-pandemic-intl-hnk/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220810183851-01-nk-kim-jong-un-coronavirus-super-tease.jpg",
+            "publishedAt": "2022-08-12T01:43:00Z",
+            "content": "Seoul, South KoreaNorth Korean leader Kim Jong Un declared victory in the battle against the novel coronavirus, ordering a lifting of maximum anti-epidemic measures imposed in May, state media said o… [+2525 chars]"
+        },
+        {
+            "source": {
+                "id": "ign",
+                "name": "IGN"
+            },
+            "author": "Ryan Leston",
+            "title": "Multiversus Season 1 Release Date Confirmed - IGN",
+            "description": "After a short delay, MultiVersus Season 1 is on its way as the game launches following a hugely successful open beta.",
+            "url": "https://www.ign.com/articles/multiversus-season-1-release-date-confirmed",
+            "urlToImage": "https://assets-prd.ignimgs.com/2022/08/08/rick-morty-multiversus-1659978576926.jpg?width=1280",
+            "publishedAt": "2022-08-12T00:34:21Z",
+            "content": "Its official MultiVersus Season 1 will launch on August 15, 2022.\r\nA statement via Twitter confirmed the new release date for the Warner Bros. online platform fighter, along with details of a new Bat… [+2057 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "14 News WFIE Evansville"
+            },
+            "author": "Robinson  Miles",
+            "title": "Family mourns and remembers married couple killed in Weinbach explosion - 14 News WFIE Evansville",
+            "description": "Among the three who died in Wednesday’s home explosion on Weinbach Avenue were Charles and Martina Hite, a married couple from Evansville",
+            "url": "https://www.14news.com/2022/08/11/family-mourns-remembers-married-couple-killed-weinbach-explosion/",
+            "urlToImage": "https://gray-wfie-prod.cdn.arcpublishing.com/resizer/sHL3mIF-vtAMZEb1mISdJQfACsA=/1200x600/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/WD3JXZW3NZEIXKB6RJHDBDNDOE.jpg",
+            "publishedAt": "2022-08-11T23:59:00Z",
+            "content": "EVANSVILLE, Ind. (WFIE) - The coroner released the names of the three people who died in Wednesdays home explosion on Weinbach Avenue. Among them were 43-year-old Charles Hite and his wife, 37-year-o… [+1509 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "countynewscenter.com"
+            },
+            "author": "https://www.countynewscenter.com/author/jose-alvarez/",
+            "title": "COVID-19 Treatment, Novavax Vaccine Available in San Diego - countynewscenter.com",
+            "description": null,
+            "url": "https://www.countynewscenter.com/covid-19-treatment-novavax-vaccine-available-in-san-diego/",
+            "urlToImage": "https://www.countynewscenter.com/wp-content/uploads/2-15-2022-COVID-19-MARC-San-Ysidro-Health-Center.jpg",
+            "publishedAt": "2022-08-11T23:48:00Z",
+            "content": "If you get COVID-19, do you know there is treatment available that can keep you from getting severely sick?\r\nThere is. But you must act fast.\r\nAntiviral pills and monoclonal antibodies should be give… [+4341 chars]"
+        },
+        {
+            "source": {
+                "id": "axios",
+                "name": "Axios"
+            },
+            "author": "Dave Lawler",
+            "title": "Explosions at Russian base show Crimea now in play in Ukraine war - Axios",
+            "description": "Kyiv has mocked Russian claims of a minor ammo explosion.",
+            "url": "https://www.axios.com/2022/08/11/explosions-russia-base-ukraine-liberate-crimea",
+            "urlToImage": "https://images.axios.com/Y9DrvElHXX6ysWj6INgqJMzPzEk=/0x0:1920x1080/1366x768/2022/08/11/1660258153870.jpg",
+            "publishedAt": "2022-08-11T23:44:34Z",
+            "content": "A series of explosions this week at a Russian military base on the Crimean coast carries major symbolic and strategic ramifications for both Ukrainian President Volodymyr Zelensky and Russian Preside… [+3595 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "KOMO News"
+            },
+            "author": "KEN RITTER Associated Press",
+            "title": "Marshawn Lynch arrest: Video shows Vegas police approaching, arresting ex-Seahawks player - KOMO News",
+            "description": "Former Seattle Seahawks player Marshawn Lynch was asleep and smelled of alcohol when Las Vegas police found him in his damaged sports car and arrested him.",
+            "url": "https://komonews.com/sports/seahawks/marshawn-lynch-was-asleep-car-damaged-before-arrest-in-las-vegas-police-say",
+            "urlToImage": "https://komonews.com/resources/media/d3cb026e-ea93-4063-a120-62cdb9c74324-large16x9_ML1.jpg?1660260990703",
+            "publishedAt": "2022-08-11T23:17:28Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Charles Pulliam-Moore",
+            "title": "Ring's new TV show sounds like America's most dystopian home videos - The Verge",
+            "description": "Ring, the Amazon-owned security company that wants to sell you cameras, is producing a new reality TV show that’s all about the footage those cameras are capturing.",
+            "url": "https://www.theverge.com/2022/8/11/23302145/ring-nation-wanda-sykes-mgm-big-fish-entertainment",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/s2Mmm2E7hmjNvgd1hn3QcrqaTmQ=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23660454/ring_echo_bundle.jpg",
+            "publishedAt": "2022-08-11T22:56:37Z",
+            "content": "Ring Nation wants to make the surveillance state fun\r\nImage: Amazon\r\nRing, the Amazon-owned home security company thatll sell you a camera just as swiftly as it will give law enforcement access to th… [+1864 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Dallas Morning News"
+            },
+            "author": "Gromer Jeffers Jr.",
+            "title": "Beto O'Rourke curses at Uvalde gun control heckler - The Dallas Morning News",
+            "description": "Beto O’Rourke is defending the F-bomb he dropped Wednesday night while confronting a heckler who he said was laughing during his remarks about the Uvalde mass...",
+            "url": "https://www.dallasnews.com/news/politics/2022/08/11/beto-orourke-drops-f-bomb-on-gun-control-heckler-while-discussing-uvalde-shooting/",
+            "urlToImage": "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/Ynnw87qKOnc1AYuoLNYU8shj1uk=/1200x630/smart/filters:no_upscale()/cloudfront-us-east-1.images.arcpublishing.com/dmn/V6FJ6JGH2FDFPENZXIQ5FL4GNA.jpg",
+            "publishedAt": "2022-08-11T22:45:38Z",
+            "content": "Beto ORourke is defending the F-bomb he dropped Wednesday night while confronting a heckler who he said was laughing during his remarks about the Uvalde mass shooting that left 19 elementary school s… [+2288 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Post"
+            },
+            "author": "Selim Algar",
+            "title": "OnlyFans star Courtney Clenney fought with boyfriend in elevator months before fatal stabbing: video - New York Post ",
+            "description": "Miami prosecutors unveiled video footage on Thursday that showed an OnlyFans star fighting with her boyfriend in an elevator just two months before fatally stabbing him in the chest.",
+            "url": "https://nypost.com/2022/08/11/onlyfans-star-courtney-clenney-fought-boyfriend-in-elevator-before-stabbing/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2022/08/onlyfans-fight-elevator-12.jpg?quality=75&strip=all&w=1024",
+            "publishedAt": "2022-08-11T22:17:00Z",
+            "content": "Miami prosecutors unveiled video footage on Thursday that showed an OnlyFans star fighting with her boyfriend in an elevator just two months before fatally stabbing him in the chest.\r\nCourtney Clenne… [+3638 chars]"
+        }
+    ]
+}

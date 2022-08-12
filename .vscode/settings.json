@@ -1,0 +1,12 @@
+{
+   "emmet.includeLanguages": {
+      "django-html": "html",
+      "javascript": "javascriptreact"
+  },
+  
+  "files.associations": {
+   "*.html": "html",
+   "*.js": "javascriptreact"
+},
+"files.autoSave": "afterDelay",
+}
