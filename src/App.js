@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import News from './components/News';
 import { Switch, Route} from 'react-router-dom';
 import LoadingBar from 'react-top-loading-bar';
+import About from './components/About';
 
 
 export default class App extends Component {
@@ -36,6 +37,10 @@ export default class App extends Component {
           </Route>
           <Route exact path='/business'>
           <News setProgress={this.setProgress} apikey = {this.apikey} key="business" pageSize={9} country = "in" category = "business"/>
+          </Route>
+          
+          <Route exact path='/about'>
+          <About/>
           </Route>
           
   
