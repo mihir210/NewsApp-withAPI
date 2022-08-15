@@ -32,53 +32,28 @@ export default class News extends Component {
     document.title = `${this.captialfirst(this.props.category)} - NewsMonkey`
   }
 
-  updateNews = async () => {
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=53a3b86b673749fa8d619346a1a513dc&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
-    this.setState({ loading: true })
-    let data = await fetch(url);
-    let parsedata = await data.json();
-    this.setState({ article: parsedata.articles, totalResult: parsedata.totalResult, loading: false })
-  }
-
 
   async componentDidMount() {
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=53a3b86b673749fa8d619346a1a513dc&page=1&pageSize=${this.props.pageSize}`;
-    this.setState({ loading: true })
+    this.props.setProgress(30);
+    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&page=1&pageSize=${this.props.pageSize}`;
+    // this.setState({ loading: true })
     let data = await fetch(url);
+
     let parsedata = await data.json();
     this.setState({ article: parsedata.articles, totalResult: parsedata.totalResult, loading: false })
+    this.props.setProgress(100);
   }
 
-  handlePreviousClick = async () => {
 
-    this.setState({
-      page: this.state.page - 1
-    })
-    this.updateNews()
-
-  }
   
   
   fetchMoreData = async () =>{
+    
     this.setState({page : this.state.page  + 1})
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=53a3b86b673749fa8d619346a1a513dc&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
     let data = await fetch(url);
     let parsedata = await data.json();
     this.setState({ article: this.state.article.concat(parsedata.articles), totalResult: parsedata.totalResult, loading: false })
-  }
-
-  handleNextClick = async () => {
-
-    if (this.state.page + 1 > Math.ceil(this.state.totalResult / this.props.pageSize)) {
-
-    }
-    else {
-      this.setState({
-        page: this.state.page + 1
-
-      })
-      this.updateNews()
-    }
   }
 
   render() {
@@ -86,11 +61,11 @@ export default class News extends Component {
       <div className='container my-3'>
 
         <h1 className='text-center my-5'>NewsMonkey top {this.captialfirst(this.props.category)} headlines  </h1>
-        {this.state.loading && <Spinner/>}
+        {/* {this.state.loading && <Spinner/>} */}
         <InfiniteScroll
           dataLength={this.state.article.length}
           next={this.fetchMoreData}
-          hasMore={this.state.article != this.state.totalResult}
+          hasMore={this.state.article !== this.state.totalResult}
           loader={<Spinner/>}
         >
           <div className="container">
