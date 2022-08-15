@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import NewsItem from './NewsItem';
 import Spinner from './Spinner';
 import InfiniteScroll from 'react-infinite-scroll-component';
+import defaul from './default.png' 
 export default class News extends Component {
 
   static defaultProps = {
@@ -58,7 +59,7 @@ export default class News extends Component {
 
   render() {
     return (
-      <div className='container my-3'>
+      <div className='container my-5'>
 
         <h1 className='text-center my-5'>NewsMonkey top {this.captialfirst(this.props.category)} headlines  </h1>
         {/* {this.state.loading && <Spinner/>} */}
@@ -73,7 +74,7 @@ export default class News extends Component {
             {this.state.article.map((element) => {
               return (
                 <div className="col-md-4" key={element.url}>
-                  <NewsItem title={element.title ? element.title : ""} desc={element.description ? element.description : ""} imageurl={element.urlToImage} newsid={element.url} author={element.author} date={element.publishedAt} source={element.source.name} />
+                  <NewsItem title={element.title ? element.title : ""} desc={element.description ? element.description : ""} imageurl={element.urlToImage?element.urlToImage : defaul} newsid={element.url} author={element.author} date={element.publishedAt} source={element.source.name} />
                 </div>
               )
             })}
