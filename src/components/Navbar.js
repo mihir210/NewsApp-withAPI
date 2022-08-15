@@ -14,28 +14,28 @@ const Navbar = (p)=>{
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <NavLink exact className="nav-Navlink active" aria-current="page" to="/">Home</NavLink>
+          <NavLink exact className="nav-link active" aria-current="page" to="/">Home</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink exact className="nav-Navlink" to="/about">About</NavLink>
+          <NavLink exact className="nav-link" to="/about">About</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink exact className="nav-Navlink" to="/business">business</NavLink>
+          <NavLink exact className="nav-link" to="/business">business</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink exact className="nav-Navlink" to="/">general</NavLink>
+          <NavLink exact className="nav-link" to="/">general</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink exact className="nav-Navlink" to="/health">health</NavLink>
+          <NavLink exact className="nav-link" to="/health">health</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink exact className="nav-Navlink" to="/science">science</NavLink>
+          <NavLink exact className="nav-link" to="/science">science</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink exact className="nav-Navlink" to="/sports">sports</NavLink>
+          <NavLink exact className="nav-link" to="/sports">sports</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink exact className="nav-Navlink" to="/technology">technology</NavLink>
+          <NavLink exact className="nav-link" to="/technology">technology</NavLink>
         </li>
       </ul>      
     </div>
