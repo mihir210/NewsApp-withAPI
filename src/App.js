@@ -6,19 +6,20 @@ import News from './components/News';
 import { Switch, Route} from 'react-router-dom';
 import LoadingBar from 'react-top-loading-bar';
 import About from './components/About';
+import Error  from './components/Error';
 
 
 export default class App extends Component {
   apikey = process.env.REACT_APP_news_api;
   state = {
-    progress:0
+    progress:0,
   }
   
   setProgress = (progress) =>{
     this.setState({progress :progress });
   }
-  render() {
 
+  render() {
     return (
       <div>
         
@@ -35,6 +36,7 @@ export default class App extends Component {
           <Route exact path='/'>
           <News setProgress={this.setProgress} apikey = {this.apikey} key="general" pageSize={9} country = "in"/>
           </Route>
+
           <Route exact path='/business'>
           <News setProgress={this.setProgress} apikey = {this.apikey} key="business" pageSize={9} country = "in" category = "business"/>
           </Route>
@@ -56,7 +58,12 @@ export default class App extends Component {
           <Route exact path='/technology'>
           <News setProgress={this.setProgress} apikey = {this.apikey} key="technology" pageSize={9} country = "in" category="technology"/>
           </Route>
-          
+          <Route exact path='/error'>
+          <Error/>
+          </Route>
+          <Route exact path='*'>
+          <News setProgress={this.setProgress} apikey = {this.apikey} key="general" pageSize={9} country = "in"/>
+          </Route>
         </Switch>
         {/* <News setProgress={this.setProgress} apikey = {this.apikey} key="general" pageSize={4} country = "in" category = "science"/> */}
    

@@ -4,8 +4,9 @@ import NewsItem from './NewsItem';
 import Spinner from './Spinner';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import defaul from './default.png' 
+import Error from './Error';
 export default class News extends Component {
-
+  
   static defaultProps = {
     country: "in",
     pageSize: 9,
@@ -28,6 +29,7 @@ export default class News extends Component {
       loading: true,
       page: 1,
       totalResult: 0,
+      error : false
     }
 
     document.title = `${this.captialfirst(this.props.category)} - NewsMonkey`
@@ -41,8 +43,14 @@ export default class News extends Component {
     let data = await fetch(url);
 
     let parsedata = await data.json();
-    this.setState({ article: parsedata.articles, totalResult: parsedata.totalResult, loading: false })
+    if (parsedata.status === "error") {
+      this.setState({error : true});
+    }
+    else{
+    
+    this.setState({ article: parsedata.articles, totalResult: parsedata.totalResult, loading: false, error: false })
     this.props.setProgress(100);
+    }
   }
 
 
@@ -58,6 +66,11 @@ export default class News extends Component {
   }
 
   render() {
+    if (this.state.error) {
+      return (
+        <Error/>
+      )
+    }
     return (
       <div className='container my-5'>
 
