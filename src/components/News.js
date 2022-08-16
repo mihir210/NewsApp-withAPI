@@ -70,11 +70,11 @@ export default class News extends Component {
           loader={<Spinner/>}
         >
           <div className="container">
-          <div className='row'>
+          <div className='row row-cols-1 row-cols-md-3 g-4'>
             {this.state.article.map((element) => {
               return (
-                <div className="col-md-4" key={element.url}>
-                  <NewsItem title={element.title ? element.title : ""} desc={element.description ? element.description : ""} imageurl={element.urlToImage?element.urlToImage : defaul} newsid={element.url} author={element.author} date={element.publishedAt} source={element.source.name} />
+                <div className="col g-5" key={element.url}>
+                  <NewsItem title={element.title ? element.title.slice(0,50) : ""} desc={element.description ? element.description.slice(0,100) : ""} imageurl={element.urlToImage?element.urlToImage : defaul} newsid={element.url} author={element.author} date={element.publishedAt} source={element.source.name} />
                 </div>
               )
             })}

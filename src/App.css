@@ -43,5 +43,6 @@
 }
 
 .hoe:hover {
-    transform: scale(1.04);
+    transform: scale(1.05);
+    box-shadow: 6px 6px 6px 2px #979797d1;
 }
