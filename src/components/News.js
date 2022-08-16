@@ -45,6 +45,7 @@ export default class News extends Component {
     let parsedata = await data.json();
     if (parsedata.status === "error") {
       this.setState({error : true});
+      this.props.setProgress(0);
     }
     else{
     
