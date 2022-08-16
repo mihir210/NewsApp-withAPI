@@ -10,7 +10,8 @@ import Error  from './components/Error';
 
 
 export default class App extends Component {
-  apikey = process.env.REACT_APP_news_api;
+  // apikey = process.env.REACT_APP_news_api;
+  apikey = "6edf7a804c5b4cbbbf35ee691ee550dc";
   state = {
     progress:0,
   }
@@ -27,7 +28,7 @@ export default class App extends Component {
         <LoadingBar
         color='red'
         progress={this.state.progress}
-        height={4}
+        height={3}
 
           
       />
