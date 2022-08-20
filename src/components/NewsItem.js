@@ -13,7 +13,7 @@ const NewsItem  = (props) => {
         <h5 className="card-title">{title} <span className="badge text-bg-primary">{source}</span></h5>
         <p className="card-text">{desc}</p>
         
-        <a href={newsid} className="btn btn-sm btn-dark stretched-link">Read More</a>
+        <a href={newsid} className="btn btn-sm btn-dark stretched-link" target="_blank">Read More</a>
         <div className="card-footer mt-5"><small className="text-muted">By  {author?author:"Unknown"}  on {new Date(date).toUTCString()}</small></div>
       </div>
     </div>

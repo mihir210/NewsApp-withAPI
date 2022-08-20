@@ -32,7 +32,7 @@ export default class News extends Component {
       error : false
     }
 
-    document.title = `${this.captialfirst(this.props.category)} - NewsMonkey`
+    document.title = `${this.captialfirst(this.props.category)} - NewsMonkey`;
   }
 
 
