@@ -4,6 +4,7 @@ import NewsItem from './NewsItem';
 import Spinner from './Spinner';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import defaul from './default.png' 
+// import axios from 'axios';
 import Error from './Error';
 export default class News extends Component {
   
@@ -41,6 +42,8 @@ export default class News extends Component {
     let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&page=1&pageSize=${this.props.pageSize}`;
     // this.setState({ loading: true })
     let data = await fetch(url);
+    // let data = await axios.get(url);
+    console.log(data);
 
     let parsedata = await data.json();
     if (parsedata.status === "error") {
